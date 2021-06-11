@@ -1,0 +1,30 @@
+@font-face {
+    font-family:'Pangolin';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Pangolin&display=swap');
+}
+
+:root{
+	--color-black: #1D1D1D;
+	--color-blue: #4276FB;
+	--color-white: #FFF;
+	--fuente: 'Open Sans';
+	--fuente-grande: 48px;
+	--fuente-medina: 24px;
+	--fuente-pequeña: 18px;
+}
+
+html{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+*,*::after,::before{
+	box-sizing: inherit;
+	font-family: var(--fuente);
+}
+
+body{
+    background-color: var(--color-white);
+    color: var(--color-black);
+    text-align:center;
+}
