@@ -6,14 +6,9 @@ html{
     font-family:'Pangolin';
 }
 
-.menu{
-    width: 40%;
-    height: 2rem;
-    background-color: bisque;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-decoration: none;
-    text-align: center;
-    margin: auto;
+.cards{
+	display: flex;
+	flex-direction: row;
+	flex: wrap;
+	justify-content: space-evenly;
 }
