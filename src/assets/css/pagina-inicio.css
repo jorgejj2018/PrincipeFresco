@@ -12,3 +12,21 @@ html{
 	flex: wrap;
 	justify-content: space-evenly;
 }
+
+img{
+	width: 50%;
+}
+
+.card {
+	width: 100%;
+	
+}
+
+.card-categoria{
+	text-decoration: none;
+}
+
+#cover{
+	width: 100%;
+	height: 500px;
+}
