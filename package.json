@@ -1,5 +1,5 @@
 {
-  "name": "PrincipeFresco",
+  "name": "principefresco",
   "version": "1.0.0",
   "description": "WorkShop-PrincipeFresco",
   "main": "src/index.js",
@@ -24,5 +24,13 @@
     "webpack": "^5.36.2",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgejj2018/PrincipeFresco.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgejj2018/PrincipeFresco/issues"
+  },
+  "homepage": "https://github.com/jorgejj2018/PrincipeFresco#readme"
 }
