@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Principe Fresco</title>
+</head>
+
+<body>
+    <section class="Formulario">
+        <h1 id="title" >
+           Workshop
+        </h1>
+    <form action="login.html" id="survey-form">
+        <div >
+            <p class="parrafos">  Nombre
+            <br>
+            <label for="name-label">
+                <input class="huecos" type="text" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))" required  required name="name" id="name" placeholder="Ingrese su nombre">
+            </label>
+        </div>
+
+
+        <div id="email">
+           <p class="parrafos">  Email
+           <br>
+           <label for="email-label">
+               <input class="huecos"  type="email" name="correo" id="email" required placeholder="Ingrese su Email">
+           </label>
+       </div>
+    <div id="password">
+   <p class="parrafos">Contraseña</p>
+
+   <label for="password-label">
+       <input class="huecos" type="password" name="password" id="password" required placeholder="*******">
+   </label>
+    </div>
+
+    <div id="number">
+           <p class="parrafos"> Edad
+           <label for="edad-label">
+               <input class="huecos"  type="date" name="edad" min="1" max="100" id="number" required placeholder="Ingrese su edad">
+           </label>
+       </div>
+       <div id="location">
+           <p class="parrafos"> Dirección
+           <label for="location-label">
+               <input class="huecos"  type="search" name="location" id="number" required placeholder="Ingrese su Dirección">
+           </label>
+       </div>
+        <div><Input class="subir" type="submit" value="Registrar"></Input></div>
+
+        <p class="parrafos" id="description">
+           <input type="checkbox" name="Description" id="Terminos" required>   Acepto <a href="#">Terminos y condiciones.</a> 
+       </p>
+   </div>
+    </form>
+</section>
+</body>
+</html>
