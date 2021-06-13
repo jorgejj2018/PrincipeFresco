@@ -41,10 +41,3 @@ console.log($imgR)
 
 
 
-
-
-
-
-
-
-

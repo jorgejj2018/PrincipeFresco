@@ -28,3 +28,149 @@ body{
     color: var(--color-black);
     text-align:center;
 }
+
+/*header*/
+	header {
+		width: 100%;
+		position:sticky;
+		top: 0;	
+		background-color: var(--color-white);
+
+	}
+	header section {
+		width: inherit;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+	}
+	
+	.nav-bar{
+		width: inherit;
+		height: inherit;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.nav-bar img { 
+		width: 20%;
+	}
+
+	header ul{
+		display: flex;
+		height: inherit;
+		align-items: center;
+	}
+	
+	li{
+		color: black;
+		text-decoration: none;
+		height: inherit;
+		display: flex;
+		align-items: center;
+		padding: 0 10px;
+	}
+	
+	.list-header{
+		list-style: none;
+		color:black;
+		text-decoration: none;
+		height: inherit;
+		display: flex;
+		align-items: center;
+		padding: 0 10px;
+	}
+	.nav-bar figure {
+		width: 10%;
+		height: 10vh;
+		display: flex;
+		justify-content: space-between;
+	}
+	.nav-bar figure a{
+		margin:auto;
+		width: 40%;
+	}
+	.nav-bar figure a img{
+	width: 50%;
+	}
+/*main*/
+/*footer*/
+footer{
+    background-color: #2c3e50;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+
+
+footer .ctn-imgFooter{
+    width: 100%;
+	height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-items: center;
+}
+footer .ctn-imgFooter img{
+	width: 10%;
+	height: 5vh;
+}
+footer .ctn-redes{
+	width: 10%;
+	height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    align-items: center;
+}
+
+footer div a img{
+	width: 100%;
+	height: 5vh;
+}
+
+
+
+
+
+
+/*
+Header estilo menu movil
+
+
+	background-color: #2c3e50;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	}
+	
+	
+	
+	header nav {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-items: center;
+	
+	}
+	
+	header nav a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	flex-flow: row wrap;
+	}
+
+
+*/

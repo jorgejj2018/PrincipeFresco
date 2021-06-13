@@ -7,7 +7,7 @@ module.exports = {
         login:'./src/login.js',
         registrar:'./src/registrar.js',
         logeado:'./src/logeado.js',
-        detalles:'./src/detalles.js',
+        coleccion:'./src/coleccion.js',
     },
     output:{
         filename: "[name].[chunkhash].js"
@@ -39,7 +39,7 @@ module.exports = {
                     {
                          loader:MiniCssExtractPlugin.loader,
                          options:{
-                            publicPath:"./",
+                            publicPath:".clear/",
                          },
                     },    
                     "css-loader",  
@@ -81,9 +81,9 @@ module.exports = {
             hash: true,
         }),
         new HtmlWebpackPlugin({
-            template:"./src/detalles.html",
-            filename:"./detalles.html",
-            chunks:["detalles"],
+            template:"./src/coleccion.html",
+            filename:"./coleccion.html",
+            chunks:["coleccion"],
             hash: true,
         }),
         new MiniCssExtractPlugin(),

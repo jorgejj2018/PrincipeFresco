@@ -17,6 +17,7 @@ $header = document.querySelector("header"),
 $main = document.querySelector("main");
 
 $header.appendChild(Header())
+$main.appendChild(Detalles())
 $main.appendChild(TitleCards())
 $main.appendChild(Cards())
 $main.appendChild(Cover())
