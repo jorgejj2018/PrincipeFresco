@@ -2,7 +2,6 @@
     font-family:'Pangolin';
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Pangolin&display=swap');
 }
-
 :root{
 	--color-black: #1D1D1D;
 	--color-blue: #4276FB;
@@ -28,7 +27,6 @@ body{
     color: var(--color-black);
     text-align:center;
 }
-
 /*header*/
 	header {
 		width: 100%;

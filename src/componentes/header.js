@@ -14,17 +14,15 @@ export default function Header(){
              <a class="list-header" href="coleccion.html">colletion</a>
          </li>
      </ul>
-     
+    
          <figure>
              <a href="registrar.html">
                 <img class="icon" src="${usuario}" alt="incon" />
              </a>
-
              <a href="coleccion.html">
                 <img class="icon" src="${comprar}"/>
              </a>
         </figure>
 </nav>`;
-
     return $header
 }
